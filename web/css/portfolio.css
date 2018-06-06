@@ -1,0 +1,80 @@
+.interna_portfolio{
+	background: url(../img/portfolio/bg-portfolio.jpeg);
+	background-size: cover;
+}
+.quote_clientes{
+	max-width: 460px;
+	padding: 60px 0;
+	margin: 0 auto;
+}
+.quote_clientes p{
+	text-align: center;
+	font-size: 18px;
+	font-style: italic;
+	line-height: 25px;
+	font-family: Georgia, "Times New Roman",serif;
+	margin-bottom: 20px;
+}
+.quote_clientes cite{
+	font-size: 18px;
+	font-weight: bold;
+	font-style: normal;
+	float: right;
+}
+
+/*Plugin de Slide*/
+.rslides, .slides_portolio {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+ }
+
+.rslides li, .slides_portolio li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+ }
+
+.rslides li:first-child, .slides_portolio li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+ }
+
+.rslides img, .slides_portolio img {
+	display: block;
+	height: auto;
+	width: 100%;
+	border: 0;
+}
+.rslides_tabs {
+	text-align: center;
+	margin-top: 15px;
+}
+.rslides_tabs li{
+	display: inline;
+	margin: 0 5px;
+}
+.rslides_tabs li a {
+	display: inline-block;
+	width: 12px;
+	height:12px;
+	background: #1d1d1d;
+	color: #1d1d1d;
+	border-radius: 100px;
+	overflow: hidden;
+}
+.rslides_tabs li.rslides_here a{
+	background: #fec63e;
+	color: #fec63e;
+}
+.rslides_tabs li a:hover,.rslides_tabs li.rslides_here a:hover{
+	background: #fec63e;
+	color: #fec63e;
+}

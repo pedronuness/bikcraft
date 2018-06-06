@@ -59,15 +59,83 @@
 .produto_info ul li:nth-child(even){ /*Pega apenas os números ímpares*/
 	margin-left: 2px;
 }
-/*.orcamento{
+
+/*-------------------------------------------------*/
+/*ORÇAMENTO*/
+
+.orcamento{
 	width: 100%;
-	background:#000;
+	background: #000;
+	margin-top: 60px;
+	padding: 40px 0;
+}
+.orcamento h2{
+	color:#fec63e;
+}
+.orcamento h2:after{
+	background:#fec63e;
 }
 .form{
-	color: #fff;
-	margin: 0 215px 0;
+	padding-right: 60px;
 }
-.form_dados{
+.form label{
+	display: block;
 	color: #fff;
-	margin: 0 -150px 0;
-}*/
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 4px;
+}
+.form input, textarea{
+	display: block;
+	width: 100%;
+	border: 4px solid #fec63e;
+	margin-bottom: 10px;
+	background: none;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", serif;
+	color: #fff;      /*Cor da escrita*/
+	padding: 7px 10px;	 /*Padding da escrita*/
+	outline: none;       /*Tira a borda azul quando o input é focado*/
+}
+.form textarea{
+	height: 120px;
+	margin-bottom: 20px;
+}
+.form button{
+	padding: 7px 40px;
+	background: none;
+}
+.orcamento_dados{
+	color: #fff;
+}
+.orcamento_dados h3{
+	font-size: 18px;
+	font-weight: bold;
+	color: #fec63e;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+.orcamento span{
+	display: block;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+.orcamento_dados span:nth-of-type(2){
+	margin-bottom: 30px;
+}
+.orcamento_dados p{
+	margin:8px 0;
+}
+.orcamento_dados ul{
+	padding-right: 60px;
+}
+.orcamento_dados ul li{
+	font-size: 14px;
+ 	font-family: Georgia, "Times New Roman", serif;
+ 	padding: 10px 15px;
+}
+.orcamento_dados ul li:nth-child(odd){
+	background: #1d1d1d;
+}

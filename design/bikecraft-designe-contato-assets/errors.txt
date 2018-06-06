@@ -1,0 +1,2 @@
+[Mon Jun 04 2018 06:31:29 GMT-0300 (Hora oficial do Brasil)] layer "- 21 25125-9865 - contato@bikcraft.com - Jardim Europa - SP": Expected end of input but "-" found.
+[Mon Jun 04 2018 06:31:29 GMT-0300 (Hora oficial do Brasil)] layer "Dados Dados + 55 21 45895 6535 orcamento@bikecraft.com  Rua Itá": Expected end of input but "R" found.
